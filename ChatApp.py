@@ -8,7 +8,7 @@ import json
 
 class ChatApp:
     user_name = "蜡笔小新"
-    client = OpenAI(api_key="sk-630c9f1c175e432ba610e94c602d7d4c", base_url="https://api.deepseek.com")
+    client = OpenAI(api_key="sk-xxxxxx", base_url="https://api.deepseek.com")
     # 2. 定义选项列表
     select_options = [
         "情绪持续低落，对什么都提不起兴趣怎么办？",
